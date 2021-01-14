@@ -1,0 +1,41 @@
+.storybook-button {
+  font-family: 'Barlow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--primary {
+  color: white;
+  background-color: #00AEEF;
+}
+
+.storybook-button--primary:hover {
+  background-color: #5DD3FF;
+}
+
+.storybook-button--secondary {
+  color: #272727;
+  background-color: transparent;
+  border: 1px solid #272727;
+}
+
+.storybook-button--secondary:hover {
+  border: 2px solid #272727;
+  font-weight: bold;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 0.4rem 2rem;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 0.6rem 2.4rem;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 0.8rem 2.7rem;
+}

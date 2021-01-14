@@ -1,0 +1,41 @@
+.alert-contained {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem
+}
+
+.contained-success {
+    color: #272727;
+    background-color: #E1F3D9;
+    border-color: #E1F3D9
+}
+
+.contained-danger {
+    color: #272727;
+    background-color: #FFD8D8;
+    border-color: #FFD8D8
+}
+
+.contained-warning {
+    color: #272727;
+    background-color: #FFF6AF;
+    border-color: #FFF6AF
+}
+
+.alert-icon {
+    margin-right: 0.5rem;
+}
+
+.icon-success {
+    color: #86C569;
+}
+
+.icon-danger {
+    color: #F06161;
+}
+
+.icon-warning {
+    color: #FFC400;
+}
